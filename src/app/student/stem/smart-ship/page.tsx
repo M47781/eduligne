@@ -332,7 +332,7 @@ function StageWhy({ addXp, addBadge, onComplete, setProjectName, setEngineerName
           <div className="py-8 px-4 bg-blue-50 dark:bg-blue-900/10 rounded-xl relative overflow-hidden mb-6">
             <div className={`absolute bottom-4 text-4xl transition-all duration-300`} style={{ right: `${powerSlider * 10}%` }}>⛵</div>
             <div className="absolute top-4 right-4 text-slate-400 flex items-center gap-1">
-              <Wind  className={powerSlider  className="w-5 h-5 shrink-0"> 5 ? 'animate-pulse text-blue-500' : ''} /> 
+              <Wind className={`w-5 h-5 shrink-0 ${powerSlider > 5 ? 'animate-pulse text-blue-500' : ''}`} /> 
               {powerSlider * 10} كم/س
             </div>
           </div>
