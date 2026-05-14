@@ -1,6 +1,9 @@
+'use client';
+
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 
 import { PlayCircle, CheckCircle2, Star, Clock, Users, FileText, ArrowRight, Play, BookOpen, Lock } from 'lucide-react';
 
